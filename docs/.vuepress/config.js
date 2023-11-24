@@ -1,12 +1,13 @@
 module.exports = {
+    base: '/hxblog/',
     title: 'DotNet编程之路',
     description: 'DOTNET编程之路博客文章',
     theme: 'reco',
-    // locales: {
-    //     '/': {
-    //         lang: 'zh-CN'
-    //     }
-    // },
+    locales: {
+        '/': {
+            lang: 'zh-CN'
+        }
+    },
     themeConfig: {
         subSidebar: 'auto',
         nav: [
