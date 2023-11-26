@@ -1,17 +1,14 @@
 {
-  "name": "vuepress-starter",
+  "name": "hxblognext",
   "version": "1.0.0",
-  "description": "vuepress测试",
   "main": "index.js",
+  "author": "songtaojie <stjworkemail@163.com>",
+  "license": "MIT",
   "scripts": {
-    "docs:dev": "set NODE_OPTIONS=--openssl-legacy-provider & vuepress dev docs",
-    "docs:build": "set NODE_OPTIONS=--openssl-legacy-provider & vuepress build docs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "vuepress": "^1.9.10",
-    "vuepress-theme-reco": "^1.6.17"
+    "vuepress": "^2.0.0-rc.0"
   }
 }
