@@ -1,0 +1,1 @@
+import{_ as e,o as c,c as t,a as o}from"./app-XWsstHlZ.js";const _={},s=o("p",null,"cli",-1),l=[s];function n(a,r){return c(),t("div",null,l)}const d=e(_,[["render",n],["__file","cli.html.vue"]]);export{d as default};
